@@ -1,0 +1,31 @@
+{
+  "name": "stepfuncs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf .dist",
+    "webpack": "webpack",
+    "dist": "ts-node tasks/dist.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/chalk": "^2.2.0",
+    "@types/shelljs": "^0.8.8",
+    "aws-sdk": "^2.774.0",
+    "chalk": "^4.1.0",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.4",
+    "ts-loader": "^8.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
